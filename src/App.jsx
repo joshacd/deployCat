@@ -31,7 +31,7 @@ export default function App() {
   return (
     <div className="flex flex-col items-center justify-start bg-gray-200 min-h-screen p-4">
       <div className="bg-gray-100 flex flex-row items-center gap-4 py-3 px-4 rounded-md shadow m-4">
-        <h1 className="text-3xl font-bold text-gray-800">Purrfect Cat</h1>
+        <h1 className="text-3xl font-bold text-gray-800">Purrrfect Cat</h1>
         <button
           onClick={fetchCatImage}
           className="bg-orange-500 text-white font-medium py-1 px-2 rounded-lg hover:bg-orange-600 transition-transform active:scale-95 shadow"
